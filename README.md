@@ -6,7 +6,7 @@ The purpose of this analysis is to review customer reviews for a category of pro
 
 Data was pulled from the Amazon Review Datasets that are available here: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt.  For this particular study, data from the Pet Products v1 dataset was reviewed.  
 
-Data was pulled into a Google Colab notebook and processed using Spark in preparation to be loaded into a database.   Data was originally loaded into a raw dataframe.  The original layout of the dataframe is below: 
+Data was pulled into a Google Colab notebook (https://github.com/klbrabec/Amazon_vine_analysis/blob/main/Amazon_Reviews_ETL.ipynb) and processed using Spark in preparation to be loaded into a database.   Data was originally loaded into a raw dataframe.  The original layout of the dataframe is below: 
 
 ![dataframelayout](https://github.com/klbrabec/Amazon_vine_analysis/blob/main/DATATYPES.JPG)
 
@@ -19,7 +19,7 @@ From the raw dataframe - data was broken out into four different tables for anal
 This information was then loaded into a PostGres database in AWS for further analysis.    This particular analysis project focused only on the Vine program.  Information from the vine table in the PostGres database was downloaded as a .csv file that was analyzed in Pandas Python. 
 
 ## Results
-Using Pandas, the .csv file was read in for processing and analysis.  
+Using Pandas, the .csv file was read in for processing and analysis.  (https://github.com/klbrabec/Amazon_vine_analysis/blob/main/Vine_Review_Analysis.ipynb)
 
 Inital processing created a dataframe that contained only those records that had over 20 reviews.  This was done to provide records that had more votes indicating that the review was helpful as well as remove the risk of any future division by zero issues.  
 
