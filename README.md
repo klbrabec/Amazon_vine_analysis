@@ -25,31 +25,31 @@ Inital processing created a dataframe that contained only those records that had
 
 That dataframe was further filtered to create a dataframe containing records where the percentage of helpful_votes compared to total_votes was equal to or greater than 50%.    From this dataframe, we were able to filter and compare the records.  
 
-The total number of records in the dataset is: 38010
+- The total number of records in the dataset is: 38010
 
 ![TotalNumberofRecords](https://github.com/klbrabec/Amazon_vine_analysis/blob/main/TotalNumberReviews.JPG)
 
-The total number of paid reviews in the dataset is: 170 
+- The total number of paid reviews in the dataset is: 170 
 
 ![TotalNumberPaidReviews](https://github.com/klbrabec/Amazon_vine_analysis/blob/main/TotalNumberPaidReviews.JPG)
 
-The total number of paid five star reviews in the dataset is: 65 
+- The total number of paid five star reviews in the dataset is: 65 
 
 ![TotalNumberPaid5starReviews](https://github.com/klbrabec/Amazon_vine_analysis/blob/main/TotalNumberPaidFiveStarReviews.JPG)
 
-The percentage of paid five star reviews is: 0.171008 
+- The percentage of paid five star reviews is: 0.171008 
 
 ![percentagepaidfivestarreviews](https://github.com/klbrabec/Amazon_vine_analysis/blob/main/percentagepaidfivestarreviews.JPG) 
 
-The total number of unpaid paid reviews in the dataset is: 37840
+- The total number of unpaid paid reviews in the dataset is: 37840
 
 ![TotalNumberUnPaidReviews](https://github.com/klbrabec/Amazon_vine_analysis/blob/main/TotalNumberUnpaidReviews.JPG)
 
-The total number of unpaid five star reviews in the dataset is: 20612
+- The total number of unpaid five star reviews in the dataset is: 20612
 
 ![TotalNumberunPaidFiveStarReviews](https://github.com/klbrabec/Amazon_vine_analysis/blob/main/TotalNumberUnpaidFiveStarReviews.JPG)
 
-The percentage of unpaid five star reviews in the dataset is: 54.227835
+- The percentage of unpaid five star reviews in the dataset is: 54.227835
 
 ![PercentageunpaidFiveStarReviews](https://github.com/klbrabec/Amazon_vine_analysis/blob/main/percentageunpaidfivestarreviews.JPG) 
 
