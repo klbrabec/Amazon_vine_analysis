@@ -45,7 +45,7 @@ The total number of unpaid paid reviews in the dataset is: 37840
 
 ![TotalNumberUnPaidReviews](https://github.com/klbrabec/Amazon_vine_analysis/blob/main/TotalNumberUnpaidReviews.JPG)
 
-The total number of unpaid five star reviews in the dataset is: 
+The total number of unpaid five star reviews in the dataset is: 20612
 
 ![TotalNumberunPaidFiveStarReviews](https://github.com/klbrabec/Amazon_vine_analysis/blob/main/TotalNumberUnpaidFiveStarReviews.JPG)
 
