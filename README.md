@@ -53,7 +53,9 @@ The percentage of unpaid five star reviews in the dataset is: 54.227835
 
 ![PercentageunpaidFiveStarReviews](https://github.com/klbrabec/Amazon_vine_analysis/blob/main/percentageunpaidfivestarreviews.JPG) 
 
-
-
-
 ## Summary 
+### Is there Bias? 
+There does not appear to be a positivity bias for reviews that are entered through the Vine program.    The percentage of five star reviews for Vine program reviews is 0.171008.  If there was an incentive for people to leave five star reviews, it would be expected that this percentage would be much higher.  
+
+### Additional Analysis
+In order to prove this, it is recommended to do the same types of analysis for all star_ratings.  If there was bias that drives users to select a particular star rating, the percentages for Vine reviews would be substantially higher than the non Vine reviews.  
